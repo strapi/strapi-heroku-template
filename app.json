@@ -3,6 +3,13 @@
   "description": "Strapi Heroku 1 click deploy button",
   "keywords": ["strapi", "heroku"],
   "repository": "https://github.com/strapi/strapi-heroku-template",
+  "env": {
+    "PROJECT_PATH": {
+      "description": "Strapi Heroku Template",
+      "required": true,
+      "value": "./"
+    }
+  },
   "addons": ["heroku-postgresql:hobby-dev"],
   "image": "heroku/nodejs",
   "buildpacks": [
