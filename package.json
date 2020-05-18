@@ -12,7 +12,6 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "execa": "^4.0.1",
     "fs": "^0.0.1-security",
     "knex": "<0.20.0",
     "pg": "^8.0.3",
