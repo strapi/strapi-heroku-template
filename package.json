@@ -13,6 +13,7 @@
   "devDependencies": {},
   "dependencies": {
     "fs": "^0.0.1-security",
+    "dotenv": "^8.2.0",
     "knex": "<0.20.0",
     "pg": "^8.0.3",
     "sqlite3": "latest",

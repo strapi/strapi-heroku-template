@@ -1,4 +1,6 @@
-'use strict';
+"use strict";
+
+require("dotenv").config();
 
 /**
  * An asynchronous bootstrap function that runs before
