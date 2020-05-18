@@ -23,7 +23,8 @@
     "strapi-connector-bookshelf": "3.0.0-beta.20.3",
     "knex": "<0.20.0",
     "sqlite3": "latest",
-    "pg": "^8.0.3"
+    "pg": "^8.0.3",
+    "fs": "^0.0.1-security"
   },
   "author": {
     "name": "A Strapi developer"
