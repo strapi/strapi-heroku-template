@@ -4,6 +4,13 @@
   "keywords": ["strapi", "heroku"],
   "repository": "https://github.com/strapi/strapi-heroku-template",
   "addons": ["heroku-postgresql:hobby-dev"],
+  "env": {
+    "STRAPI_UUID_PREFIX": {
+      "description": "Type of project",
+      "required": true,
+      "value": "STRAPI-HEROKU-TEMPLATE"
+    }
+  },
   "image": "heroku/nodejs",
   "buildpacks": [
     {
