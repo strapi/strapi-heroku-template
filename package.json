@@ -28,8 +28,6 @@
     "strapi-utils": "3.0.0",
     "mime-types": "^2.1.27",
     "strapi-plugin-graphql": "3.2.5"
-
-
   },
   "author": {
     "name": "A Strapi developer"
