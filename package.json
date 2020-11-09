@@ -1,5 +1,5 @@
 {
-  "name": "strapi-heroku",
+  "name": "backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -7,31 +7,30 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "heroku-prebuild": "node scripts/postgres-env.js"
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
-    "fs": "^0.0.1-security",
-    "dotenv": "^8.2.0",
+    "strapi": "3.2.5",
+    "strapi-admin": "3.2.5",
+    "strapi-utils": "3.2.5",
+    "strapi-plugin-content-type-builder": "3.2.5",
+    "strapi-plugin-content-manager": "3.2.5",
+    "strapi-plugin-users-permissions": "3.2.5",
+    "strapi-plugin-email": "3.2.5",
+    "strapi-plugin-upload": "3.2.5",
+    "strapi-connector-bookshelf": "3.2.5",
     "knex": "<0.20.0",
-    "pg": "^8.0.3",
     "sqlite3": "latest",
-    "strapi": "3.0.0",
-    "strapi-admin": "3.0.0",
-    "strapi-connector-bookshelf": "3.0.0",
-    "strapi-plugin-content-manager": "3.0.0",
-    "strapi-plugin-content-type-builder": "3.0.0",
-    "strapi-plugin-email": "3.0.0",
-    "strapi-plugin-upload": "3.0.0",
-    "strapi-plugin-users-permissions": "3.0.0",
-    "strapi-utils": "3.0.0"
+    "mime-types": "^2.1.27",
+    "strapi-plugin-graphql": "3.2.5"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": ""
+    "uuid": "4895f102-293d-4e93-8074-b9fe595f4587",
+    "template": "https://github.com/strapi/strapi-template-blog"
   },
   "engines": {
     "node": ">=10.0.0",

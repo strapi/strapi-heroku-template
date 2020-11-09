@@ -1,5 +1,3 @@
-![Strapi Heroku](/assets/Strapi-heroku.jpg)
+# Strapi application
 
-# Deploy Strapi on Heroku in 1 click
-
-[![](/assets/Heroku.png)](https://www.heroku.com/deploy/?template=https://github.com/strapi/strapi-heroku-template)
+A quick description of your strapi application
