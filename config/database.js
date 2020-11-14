@@ -11,6 +11,7 @@ module.exports = ({ env }) => ({
         username: process.env.DATABASE_USERNAME,
         password: process.env.DATABASE_PASSWORD,
         ssl: { "rejectUnauthorized": false }
+
       },
       options: {
         useNullAsDefault: true
