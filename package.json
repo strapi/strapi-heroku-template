@@ -1,0 +1,39 @@
+{
+  "name": "heroku",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "heroku-prebuild": "node scripts/postgres-env.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "<0.20.0",
+    "pg": "^8.5.1",
+    "sqlite3": "latest",
+    "strapi": "3.3.4",
+    "strapi-admin": "3.3.4",
+    "strapi-connector-bookshelf": "3.3.4",
+    "strapi-plugin-content-manager": "3.3.4",
+    "strapi-plugin-content-type-builder": "3.3.4",
+    "strapi-plugin-email": "3.3.4",
+    "strapi-plugin-upload": "3.3.4",
+    "strapi-plugin-users-permissions": "3.3.4",
+    "strapi-utils": "3.3.4"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "7107e57d-a7dd-41a3-82c5-b50d4d6e962a"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
