@@ -26,6 +26,7 @@
     "strapi-plugin-i18n": "^3.6.3",
     "strapi-plugin-upload": "3.6.3",
     "strapi-plugin-users-permissions": "3.6.3",
+    "strapi-provider-upload-cloudinary": "^3.6.3",
     "strapi-utils": "3.6.3",
     "uuidv4": "^6.2.6"
   },
