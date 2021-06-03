@@ -1,3 +1,7 @@
+// This script is used to prepend HEROKU-ONE-CLICK- to the uuid of the generated project.
+// It allows us to see how many projects are being deployed thanks to this button and if we should keep maintaining it.
+// Feel free to delete this file, remove the script in the package.json and the HEROKU-ONE-CLICK in the uuid.
+
 const fs = require('fs');
 const uuid = require('uuid/v4');
 

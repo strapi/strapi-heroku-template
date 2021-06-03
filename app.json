@@ -1,13 +1,32 @@
 {
   "name": "Strapi",
   "description": "Strapi Heroku 1 click deploy button",
-  "keywords": ["strapi", "heroku"],
+  "keywords": [
+    "strapi",
+    "heroku"
+  ],
   "repository": "https://github.com/strapi/strapi-heroku-template",
-  "addons": ["heroku-postgresql:hobby-dev"],
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
   "image": "heroku/nodejs",
   "buildpacks": [
     {
       "url": "heroku/nodejs"
     }
-  ]
+  ],
+  "env": {
+    "CLOUDINARY_NAME": {
+      "description": "Cloud name of your Cloudinary account",
+      "required": "true"
+    },
+    "CLOUDINARY_KEY": {
+      "description": "Cloudinary API Key",
+      "required": "true"
+    },
+    "CLOUDINARY_SECRET": {
+      "description": "Cloudinary API Secret",
+      "required": "true"
+    }
+  }
 }
