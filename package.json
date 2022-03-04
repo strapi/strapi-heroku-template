@@ -1,5 +1,5 @@
 {
-  "name": "heroku",
+  "name": "my-project",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -7,37 +7,28 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "heroku-postbuild": "strapi build && node scripts/postinstall.js"
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
+    "@strapi/plugin-i18n": "4.1.2",
+    "@strapi/plugin-users-permissions": "4.1.2",
+    "@strapi/provider-upload-cloudinary": "^4.1.2",
+    "@strapi/strapi": "4.1.2",
     "fs": "^0.0.1-security",
-    "knex": "<0.20.0",
-    "pg": "^8.5.1",
+    "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "latest",
-    "strapi": "3.6.3",
-    "strapi-admin": "3.6.3",
-    "strapi-connector-bookshelf": "3.6.3",
-    "strapi-plugin-content-manager": "3.6.3",
-    "strapi-plugin-content-type-builder": "3.6.3",
-    "strapi-plugin-email": "3.6.3",
-    "strapi-plugin-i18n": "^3.6.3",
-    "strapi-plugin-upload": "3.6.3",
-    "strapi-plugin-users-permissions": "3.6.3",
-    "strapi-provider-upload-cloudinary": "^3.6.3",
-    "strapi-utils": "3.6.3",
-    "uuidv4": "^6.2.6"
+    "sqlite3": "5.0.2",
+    "uuidv4": "^6.2.12"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "7107e57d-a7dd-41a3-82c5-b50d4d6e962a"
+    "uuid": "61e8a3da-dbc1-4656-ba9a-d9c78e99ef5c"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
+    "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"

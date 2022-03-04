@@ -1,41 +1,40 @@
+// const path = require("path");
+
 const { parse } = require("pg-connection-string");
 
 module.exports = ({ env }) => {
   const { host, port, database, user, password } = parse(env("DATABASE_URL"));
 
   return {
-    defaultConnection: "default",
-    connections: {
-      default: {
-        connector: "bookshelf",
-        settings: {
-          client: "postgres",
-          host,
-          port,
-          database,
-          username: user,
-          password,
-          ssl: { rejectUnauthorized: false },
+    connection: {
+      client: "postgres",
+      connection: {
+        host,
+        port,
+        database,
+        user,
+        password,
+        schema: env("DATABASE_SCHEMA", "public"), // Not required
+        ssl: {
+          rejectUnauthorized: env.bool("DATABASE_SSL_SELF", false), // For self-signed certificates
         },
-        options: {},
       },
+      debug: false,
     },
   };
 };
 
 // Use this configuration for an SQLite database on your machine.
 // module.exports = ({ env }) => ({
-//   defaultConnection: 'default',
-//   connections: {
-//     default: {
-//       connector: 'bookshelf',
-//       settings: {
-//         client: 'sqlite',
-//         filename: env('DATABASE_FILENAME', '.tmp/data.db'),
-//       },
-//       options: {
-//         useNullAsDefault: true,
-//       },
+//   connection: {
+//     client: "sqlite",
+//     connection: {
+//       filename: path.join(
+//         __dirname,
+//         "..",
+//         env("DATABASE_FILENAME", ".tmp/data.db")
+//       ),
 //     },
+//     useNullAsDefault: true,
 //   },
 // });
