@@ -14,7 +14,7 @@
     "@strapi/plugin-i18n": "4.1.2",
     "@strapi/plugin-users-permissions": "4.1.2",
     "@strapi/provider-upload-cloudinary": "^4.1.2",
-    "@strapi/strapi": "4.1.2",
+    "@strapi/strapi": "4.1.9",
     "fs": "^0.0.1-security",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
