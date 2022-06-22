@@ -18,7 +18,7 @@
     "fs": "^0.0.1-security",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "5.0.2",
+    "sqlite3": "5.0.3",
     "uuidv4": "^6.2.12"
   },
   "author": {
