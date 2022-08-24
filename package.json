@@ -22,7 +22,6 @@
     "pg-connection-string": "^2.5.0",
     "react-query": "^3.39.2",
     "sqlite3": "5.0.2",
-    "strapi-plugin-website-builder": "^2.2.1",
     "uuidv4": "^6.2.12",
     "yup": "^0.32.11"
   },
