@@ -15,11 +15,15 @@
     "@strapi/plugin-users-permissions": "4.1.2",
     "@strapi/provider-upload-cloudinary": "^4.1.2",
     "@strapi/strapi": "4.1.2",
+    "axios": "^0.27.2",
     "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
+    "react-query": "^3.39.2",
     "sqlite3": "5.0.2",
-    "uuidv4": "^6.2.12"
+    "uuidv4": "^6.2.12",
+    "yup": "^0.32.11"
   },
   "author": {
     "name": "A Strapi developer"

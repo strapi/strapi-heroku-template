@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lokers",
+  "info": {
+    "singularName": "loker",
+    "pluralName": "lokers",
+    "displayName": "loker"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "created_on": {
+      "type": "date"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "company_name": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}
