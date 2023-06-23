@@ -7,7 +7,7 @@
   ],
   "repository": "https://github.com/strapi/strapi-heroku-template",
   "addons": [
-    "heroku-postgresql:hobby-dev"
+    "heroku-postgresql:mini"
   ],
   "image": "heroku/nodejs",
   "buildpacks": [
